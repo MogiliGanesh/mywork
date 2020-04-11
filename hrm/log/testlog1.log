@@ -6,3 +6,467 @@
 2020-04-11 18:09:22,629 [main] INFO com.Utils.TestBase - password entered
 2020-04-11 18:09:28,109 [main] INFO com.Utils.TestBase - logIn button clicked
 2020-04-11 18:09:33,111 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 21:33:50,511 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 21:33:54,699 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 21:33:54,814 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 21:34:04,495 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 21:34:05,363 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 21:34:07,443 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 21:34:10,259 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 21:34:15,260 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 21:34:34,638 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 21:36:39,417 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 21:36:43,591 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 21:36:43,605 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 21:36:46,617 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 21:36:46,887 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 21:36:49,058 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 21:36:54,856 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 21:36:59,856 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 21:36:59,961 [main] INFO com.Utils.TestBase - validation end
+2020-04-11 21:37:00,016 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 21:37:46,133 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 21:37:50,287 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 21:37:50,307 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 21:37:53,181 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 21:37:53,436 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 21:37:55,608 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 21:37:58,380 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 21:38:03,380 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 21:38:22,726 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 21:46:12,725 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 21:46:16,882 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 21:46:16,902 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 21:46:22,049 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 21:46:22,364 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 21:46:24,493 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 21:46:26,960 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 21:46:31,960 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 21:46:51,350 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 21:50:56,190 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 21:51:00,482 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 21:51:00,501 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 21:51:03,232 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 21:51:03,474 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 21:51:05,652 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 21:51:08,292 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 21:51:13,294 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 21:51:32,674 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 21:53:03,168 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 21:53:07,329 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 21:53:07,378 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 21:53:09,964 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 21:53:10,134 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 21:53:12,220 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 21:53:14,853 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 21:53:19,855 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 21:53:39,194 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 21:55:31,821 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 21:55:35,960 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 21:55:35,967 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 21:55:38,845 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 21:55:39,062 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 21:55:41,209 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 21:55:43,789 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 21:55:48,789 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 21:56:08,159 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 21:59:36,034 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 21:59:40,282 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 21:59:40,290 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 21:59:43,202 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 21:59:43,363 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 21:59:45,442 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 21:59:51,482 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 21:59:56,483 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 21:59:56,553 [main] INFO com.Utils.TestBase - validation end
+2020-04-11 21:59:56,602 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 22:11:06,570 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 22:11:10,735 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 22:11:10,757 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 22:11:14,957 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 22:11:15,210 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 22:11:17,326 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 22:11:19,807 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 22:11:24,808 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 22:11:44,184 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 22:12:27,485 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 22:12:31,639 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 22:12:31,663 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 22:12:34,454 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 22:12:34,681 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 22:12:36,845 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 22:12:39,486 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 22:12:44,487 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 22:13:03,844 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 22:17:40,193 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 22:17:44,348 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 22:17:44,370 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 22:17:46,993 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 22:17:47,145 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 22:17:49,226 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 22:17:52,419 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 22:17:57,420 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 22:18:16,774 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 22:19:43,975 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 22:19:48,122 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 22:19:48,135 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 22:19:50,961 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 22:19:51,226 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 22:19:53,376 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 22:19:56,069 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 22:20:01,070 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 22:20:20,456 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 22:28:50,420 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 22:28:54,714 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 22:28:54,722 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 22:28:57,265 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 22:28:57,439 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 22:28:59,534 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 22:29:02,085 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 22:29:07,085 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 22:29:26,460 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 22:35:53,832 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 22:35:58,096 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 22:35:58,115 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 22:36:02,925 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 22:36:03,178 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 22:36:05,302 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 22:36:07,624 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 22:36:12,625 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 22:36:32,000 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 22:41:38,151 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 22:41:42,287 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 22:41:42,293 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 22:41:44,744 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 22:41:44,936 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 22:41:47,082 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 22:41:49,803 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 22:41:54,804 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 22:42:14,171 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 22:45:05,246 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 22:45:09,403 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 22:45:09,422 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 22:45:12,734 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 22:45:12,999 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 22:45:15,164 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 22:45:17,492 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 22:45:22,493 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 22:45:41,831 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 22:54:11,425 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 22:54:15,577 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 22:54:15,597 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 22:54:20,011 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 22:54:20,145 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 22:54:22,236 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 22:54:24,614 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 22:54:29,614 [main] INFO com.Utils.TestBase - validation starts
+2020-04-11 22:54:48,973 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:01:34,761 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:01:38,924 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:01:38,946 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:01:44,192 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:01:44,506 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:01:46,631 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:01:50,280 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 23:01:56,544 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:05:09,280 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:05:13,425 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:05:13,432 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:05:16,011 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:05:16,175 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:05:18,260 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:05:20,920 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 23:05:26,566 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:07:29,552 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:07:33,689 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:07:33,696 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:07:36,224 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:07:36,368 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:07:38,445 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:07:41,141 [main] INFO com.Utils.TestBase - logIn button clicked
+2020-04-11 23:07:46,680 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:11:06,272 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:11:10,424 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:11:10,446 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:11:15,521 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:11:15,663 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:11:17,744 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:11:20,134 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:11:20,677 [main] INFO com.Utils.TestBase - validation end
+2020-04-11 23:11:25,004 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:26:13,515 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:26:17,656 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:26:17,663 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:26:21,670 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:26:21,817 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:26:23,897 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:26:29,328 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:26:44,445 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:31:06,519 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:31:10,670 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:31:10,692 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:31:13,451 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:31:13,603 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:31:15,692 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:31:21,191 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:31:36,313 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:32:41,005 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:32:45,142 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:32:45,149 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:32:47,645 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:32:47,795 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:32:49,876 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:32:52,429 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:32:52,974 [main] INFO com.Utils.TestBase - validation end
+2020-04-11 23:32:57,295 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:34:32,024 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:34:36,160 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:34:36,168 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:34:38,576 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:34:38,731 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:34:40,815 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:34:46,401 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:35:01,526 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:36:02,205 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:36:06,355 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:36:06,368 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:36:10,118 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:36:10,261 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:36:12,346 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:36:17,702 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:36:37,795 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:37:46,525 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:37:50,673 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:37:50,680 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:37:54,813 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:37:55,003 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:37:57,084 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:38:02,321 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:38:22,411 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:45:55,989 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:46:00,124 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:46:00,131 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:46:03,218 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:46:03,544 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:46:05,707 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:46:11,248 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:46:26,377 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:49:50,464 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:49:54,597 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:49:54,602 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:49:57,077 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:49:57,233 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:49:59,393 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:50:05,074 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:50:25,154 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:57:36,919 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:57:41,204 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:57:41,211 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:57:43,707 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:57:43,865 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:57:45,952 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:57:52,810 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:57:52,877 [main] INFO com.Utils.TestBase - validation end
+2020-04-11 23:57:52,966 [main] INFO com.Utils.TestBase - browser closed
+2020-04-11 23:58:57,675 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-11 23:59:01,833 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-11 23:59:01,841 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-11 23:59:04,791 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-11 23:59:04,932 [main] INFO com.Utils.TestBase - username entered
+2020-04-11 23:59:07,013 [main] INFO com.Utils.TestBase - password entered
+2020-04-11 23:59:09,642 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-11 23:59:28,976 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:02:26,761 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:02:30,910 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:02:30,932 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:02:33,923 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:02:34,082 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:02:36,164 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:02:39,757 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:02:43,937 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:09:26,294 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:09:30,430 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:09:30,440 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:09:33,388 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:09:33,563 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:09:35,647 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:09:38,061 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:09:57,397 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:11:01,995 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:11:06,151 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:11:06,170 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:11:08,836 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:11:09,048 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:11:11,195 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:11:13,866 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:11:33,253 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:13:01,763 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:13:05,918 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:13:05,925 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:13:08,727 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:13:08,903 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:13:10,992 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:15:16,591 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:15:20,733 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:15:20,743 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:15:23,317 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:15:23,507 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:15:25,588 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:16:46,280 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:16:50,440 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:16:50,447 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:16:53,051 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:16:53,221 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:16:55,307 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:16:57,800 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:17:17,155 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:18:45,638 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:18:49,789 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:18:49,796 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:18:52,350 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:18:52,514 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:18:54,690 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:27:08,696 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:27:12,824 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:27:12,830 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:27:15,519 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:27:15,674 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:27:17,761 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:27:23,539 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:27:26,614 [main] INFO com.Utils.TestBase - validation end
+2020-04-12 00:27:26,679 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:28:04,492 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:28:08,646 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:28:08,655 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:28:11,591 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:28:11,739 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:28:13,824 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:28:16,502 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:28:38,899 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:30:31,368 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:30:35,511 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:30:35,519 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:30:38,433 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:30:38,587 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:30:40,733 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:30:43,463 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:31:05,890 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:32:53,063 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:32:57,218 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:32:57,226 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:33:00,039 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:33:00,195 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:33:02,371 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:33:05,056 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:33:24,397 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:36:51,010 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:36:55,147 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:36:55,155 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:36:57,652 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:36:57,804 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:36:59,903 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:37:02,590 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:37:21,948 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:43:36,122 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:43:40,272 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:43:40,291 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:43:43,167 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:43:43,367 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:43:45,509 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:43:48,163 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:43:52,261 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:45:24,074 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:45:28,225 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:45:28,245 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:45:31,213 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:45:31,423 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:45:33,614 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:45:36,289 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:45:40,620 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:47:42,086 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:47:46,242 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:47:46,265 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:47:49,097 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:47:49,248 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:47:51,332 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:47:56,741 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:47:56,746 [main] INFO com.Utils.TestBase - validation end
+2020-04-12 00:47:56,796 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:55:36,808 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:55:40,946 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:55:40,954 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:55:43,353 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:55:43,517 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:55:45,690 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:55:51,423 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:55:51,428 [main] INFO com.Utils.TestBase - validation end
+2020-04-12 00:55:51,491 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:57:10,036 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:57:14,180 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:57:14,187 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:57:18,571 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:57:18,712 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:57:20,794 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:57:26,725 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:57:26,732 [main] INFO com.Utils.TestBase - validation end
+2020-04-12 00:57:26,789 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:58:10,312 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:58:14,464 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:58:14,484 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:58:17,025 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:58:17,216 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:58:19,343 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:58:25,130 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:58:25,135 [main] INFO com.Utils.TestBase - validated succesfully
+2020-04-12 00:58:25,199 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 00:58:49,998 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 00:58:54,157 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 00:58:54,166 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 00:58:57,337 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 00:58:57,491 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 00:58:59,579 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 00:59:02,205 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 00:59:06,539 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 01:01:19,053 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 01:01:23,208 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 01:01:23,227 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 01:01:27,482 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 01:01:27,743 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 01:01:29,828 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 01:01:32,262 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 01:01:36,365 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 01:02:12,352 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 01:02:16,503 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 01:02:16,521 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 01:02:19,609 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 01:02:19,782 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 01:02:21,960 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 01:02:27,665 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 01:02:27,671 [main] INFO com.Utils.TestBase - validated succesfully
+2020-04-12 01:02:27,722 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 01:08:54,056 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 01:08:58,199 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 01:08:58,206 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 01:09:00,640 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 01:09:00,794 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 01:09:02,877 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 01:09:08,581 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 01:09:08,586 [main] INFO com.Utils.TestBase - validated succesfully
+2020-04-12 01:09:08,644 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 01:09:52,511 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 01:09:56,651 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 01:09:56,672 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 01:09:59,372 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 01:09:59,564 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 01:10:01,724 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 01:10:04,330 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 01:10:09,246 [main] INFO com.Utils.TestBase - browser closed
+2020-04-12 01:10:53,208 [main] INFO com.Utils.TestBase - broswer opened
+2020-04-12 01:10:57,364 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-04-12 01:10:57,385 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-04-12 01:11:00,102 [main] INFO com.Utils.TestBase - broswer url entered
+2020-04-12 01:11:00,294 [main] INFO com.Utils.TestBase - username entered
+2020-04-12 01:11:02,420 [main] INFO com.Utils.TestBase - password entered
+2020-04-12 01:11:08,037 [main] INFO com.Utils.TestBase - logIn button clicked & validation starts
+2020-04-12 01:11:08,043 [main] INFO com.Utils.TestBase - validated succesfully
+2020-04-12 01:11:08,111 [main] INFO com.Utils.TestBase - browser closed

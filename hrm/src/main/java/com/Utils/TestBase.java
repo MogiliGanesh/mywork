@@ -63,9 +63,9 @@ public class TestBase {
 		log.info("broswer url entered");
 		System.out.println("current url is   "+driver.getCurrentUrl());
 		
-		System.out.println("page source   "+driver.getPageSource());
-		System.out.println("current title   "+driver.getTitle());
-		System.out.println("class   "+driver.getClass());
+		//System.out.println("page source   "+driver.getPageSource());
+		System.out.println("current title is  "+driver.getTitle());
+		System.out.println("class is  "+driver.getClass());
 
 	}
 

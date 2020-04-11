@@ -2,7 +2,7 @@ package tests;
 
 import com.Utils.TestBase;
 import com.constants.Constants;
-import org.openqa.selenium.By;
+import java.io.IOException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -15,25 +15,28 @@ public class OrangeHRM extends TestBase {
 		initialization();
 	}
 
-	@Test
-	public void logIn() throws InterruptedException {
-	
-		Assert.assertEquals(driver.getTitle(), Constants.expected_title);
+	@Test(priority = 1, description = "login functionality and validation")
+	public void logIn() throws InterruptedException, IOException {
+
+		Assert.assertEquals(driver.getTitle(), Constants.expected_title, " error");
 		com.Pages.OrangeHRM o = PageFactory.initElements(driver, com.Pages.OrangeHRM.class);
 		o.enter_UserName(Constants.userName);
 		log.info("username entered");
 		o.enter_password(Constants.password);
 		log.info("password entered");
 		o.click_logIn();
-		log.info("logIn button clicked");
-		Thread.sleep(5000);
-		
-		log.info("validation starts");
-		Assert.assertEquals((driver.findElement(By.id("welcome")).getText()), Constants.welcomeAdmin);
+		log.info("logIn button clicked & validation starts");
+		o.validation();
+
+		log.info("validated succesfully");
+
 	}
+
 	@AfterMethod
 	public void teatDown() {
 		driver.close();
+		log.info("browser closed");
+
 	}
 
 }
