@@ -1,0 +1,8 @@
+2020-04-11 18:09:12,657 - com.Utils.TestBase -INFO - broswer opened
+2020-04-11 18:09:16,822 - com.Utils.TestBase -INFO - broswer windows maximized
+2020-04-11 18:09:16,842 - com.Utils.TestBase -INFO - broswer cookies deleted
+2020-04-11 18:09:20,366 - com.Utils.TestBase -INFO - broswer url entered
+2020-04-11 18:09:20,541 - com.Utils.TestBase -INFO - username entered
+2020-04-11 18:09:22,629 - com.Utils.TestBase -INFO - password entered
+2020-04-11 18:09:28,109 - com.Utils.TestBase -INFO - logIn button clicked
+2020-04-11 18:09:33,111 - com.Utils.TestBase -INFO - validation starts

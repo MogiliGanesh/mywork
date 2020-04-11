@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53" started-at="2020-04-10T23:19:25 IST" finished-at="2020-04-10T23:19:25 IST">
+  <suite name="Default suite" duration-ms="26979" started-at="2020-04-11T18:09:06 IST" finished-at="2020-04-11T18:09:33 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53" started-at="2020-04-10T23:19:25 IST" finished-at="2020-04-10T23:19:25 IST">
-      <class name="tests.Test_01">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.Test_01@76707e36]" name="beforeTest" is-config="true" duration-ms="11" started-at="2020-04-10T23:19:25 IST" finished-at="2020-04-10T23:19:25 IST">
+    <test name="Default test" duration-ms="26979" started-at="2020-04-11T18:09:06 IST" finished-at="2020-04-11T18:09:33 IST">
+      <class name="tests.OrangeHRM">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.OrangeHRM@4eb7f003]" name="setUp" is-config="true" duration-ms="14078" started-at="2020-04-11T18:09:06 IST" finished-at="2020-04-11T18:09:20 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:tests.Test_01@76707e36]" name="f" duration-ms="5" started-at="2020-04-10T23:19:25 IST" finished-at="2020-04-10T23:19:25 IST">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:tests.OrangeHRM@4eb7f003]" name="logIn" duration-ms="12796" started-at="2020-04-11T18:09:20 IST" finished-at="2020-04-11T18:09:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.Test_01@76707e36]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-04-10T23:19:25 IST" finished-at="2020-04-10T23:19:25 IST">
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:tests.OrangeHRM@4eb7f003]" name="teatDown" is-config="true" duration-ms="60" started-at="2020-04-11T18:09:33 IST" finished-at="2020-04-11T18:09:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- tests.Test_01 -->
+        </test-method> <!-- teatDown -->
+      </class> <!-- tests.OrangeHRM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
