@@ -27,14 +27,27 @@ public class OrangeHRM extends TestBase {
 		o.click_logIn();
 		log.info("logIn button clicked & validation starts");
 		o.validation();
-
-		log.info("validated succesfully");
-
+		log.info(" logIn validated succesfully");
+	
 	}
 
+	@Test(priority=2, description= "Logout functionalaity")
+	public void logOut() throws InterruptedException, IOException {
+		logIn();
+		Assert.assertEquals(com.Pages.OrangeHRM.welcome.getText() , Constants.welcomeAdmin, "Error in lonIn Functionality");
+		com.Pages.OrangeHRM o1 = PageFactory.initElements(driver, com.Pages.OrangeHRM.class);
+		o1.logOClickOnWelcomeAdmin_Link();
+		log.info("welcome admin link clicked");
+		o1.logOut();
+		log.info("clicked on logOut");
+		Assert.assertEquals(driver.getCurrentUrl(), Constants.url, "LogOut Failed");
+		log.info(" log out validated succesfully");
+	}
+	
+	
 	@AfterMethod
 	public void teatDown() {
-		driver.close();
+		//driver.close();
 		log.info("browser closed");
 
 	}
