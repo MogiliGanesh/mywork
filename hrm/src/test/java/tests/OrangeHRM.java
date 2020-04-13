@@ -47,7 +47,7 @@ public class OrangeHRM extends TestBase {
 	
 	@AfterMethod
 	public void teatDown() {
-		//driver.close();
+		driver.close();
 		log.info("browser closed");
 
 	}

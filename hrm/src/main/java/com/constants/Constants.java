@@ -9,4 +9,5 @@ public class Constants {
 	public static final String welcomeAdmin="Welcome Admin";
 	public static final String screenshot_dir="./failedTests_ScreenShots";
 	public static final String actual="com.Pages.OrangeHRM.welcome.getText()";
+	public static final String user_dir="C://Users//Madhavi K//git//mywork//hrm";
 }
