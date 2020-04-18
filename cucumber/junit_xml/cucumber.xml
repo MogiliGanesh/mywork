@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="26.906">
+<testcase classname="O_hrm logIn" name="O_hrm logIn scenario" time="14.921">
+<system-out><![CDATA[Given browser open..........................................................passed
+When open url...............................................................passed
+Then user enters "admin" and "admin"........................................passed
+Then user clicks on login button............................................passed
+Then user is logged in......................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="O_hrm logIn" name="O_hrm logIn scenario 2" time="11.719">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given browser open..........................................................passed
+When open url...............................................................passed
+Then user enters "ganesh" and "test@123"....................................passed
+Then user clicks on login button............................................passed
+Then user is logged in......................................................failed
+Then Close the browser......................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinition.LoginStepDefinition.user_is_logged_in(LoginStepDefinition.java:62)
+	at ✽.user is logged in(file:///C:/Users/Madhavi%20K/eclipse-workspace/cucumber/./src/main/java/Feature/login.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-18T18:32:18.818Z",
+        "line": 11,
+        "name": "O_hrm logIn scenario",
+        "description": "",
+        "id": "o-hrm-login;o-hrm-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5933000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "browser open",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.browser_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2541000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open url",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.open_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"admin\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5568000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is logged in",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.user_is_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 654000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-18T18:32:33.759Z",
+        "line": 12,
+        "name": "O_hrm logIn scenario",
+        "description": "",
+        "id": "o-hrm-login;o-hrm-login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5199000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "browser open",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.browser_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2924000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open url",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.open_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"ganesh\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ganesh\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"test@123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinition.LoginStepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2993000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinition.LoginStepDefinition.user_is_logged_in(LoginStepDefinition.java:62)\r\n\tat ✽.user is logged in(file:///C:/Users/Madhavi%20K/eclipse-workspace/cucumber/./src/main/java/Feature/login.feature:7)\r\n",
+              "duration": 432000000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user is logged in",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.user_is_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "O_hrm logIn",
+    "description": "",
+    "id": "o-hrm-login",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Feature/login.feature",
+    "tags": []
+  }
+]
