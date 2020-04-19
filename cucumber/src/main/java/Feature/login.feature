@@ -5,8 +5,10 @@ When open url
 Then user enters "<username>" and "<password>"
 Then user clicks on login button
 Then user is logged in
-Then Close the browser
 Examples:
 	| username | password | 
 	| admin    | admin    | 
 	| ganesh  | test@123 |
+	
+
+	
