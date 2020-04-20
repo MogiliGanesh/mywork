@@ -1,23 +1,32 @@
 package stepDefinition;
 
 import java.io.File;
+
 import java.io.IOException;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginStepDefinition {
+public class StepDefinition {
+	@After
+	public void tearDown() {
+		driver.close();
+	}
 
 	WebDriver driver = null;
-
 	@Given("browser open")
 	public void browser_open() {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
@@ -32,11 +41,11 @@ public class LoginStepDefinition {
 		driver.get("http://127.0.0.1/orangehrm-3.0.1/symfony/web/index.php/auth/login");
 	}
 
-	@Then("user enters {string} and {string}")
-	public void user_enters_and(String string, String string2) {
+	@Then("user enters username and password")
+	public void user_enters_username_and_password() {
 
-		driver.findElement(By.id("txtUsername")).sendKeys(string);
-		driver.findElement(By.id("txtPassword")).sendKeys(string2);
+		driver.findElement(By.id("txtUsername")).sendKeys("admin");
+		driver.findElement(By.id("txtPassword")).sendKeys("admin");
 	}
 
 	@Then("user clicks on login button")
@@ -83,7 +92,12 @@ public class LoginStepDefinition {
 	}
 
 	@Then("user attach photograpth")
-	public void user_attach_photograpth() {
+	public void user_attach_photograpth() throws IOException, InterruptedException {
+//		driver.findElement(By.id("photofile")).click();
+//		System.out.println("clicked on attach file");
+//		Thread.sleep(5000);
+//	Runtime.getRuntime().exec("C:/Users/Madhavi K/Desktop/pp.exe");
+//		Thread.sleep(10000);
 
 	}
 
@@ -97,12 +111,46 @@ public class LoginStepDefinition {
 		Thread.sleep(6000);
 		Assert.assertTrue(driver.findElement(By.id("personal_txtEmpFirstName")).getAttribute("value").equals(exp));
 		String emp_id = driver.findElement(By.id("personal_txtEmployeeId")).getAttribute("value");
-		System.out.println("emp id is "+emp_id);
+		System.out.println("emp id is " + emp_id);
 	}
 
-	@Then("user closes the browser")
-	public void user_closes_the_browser() {
-		driver.quit();
+	@Then("user clicks on employee list")
+	public void user_clicks_on_employee_list() {
+		driver.findElement(By.id("menu_pim_viewEmployeeList")).click();
 	}
 
+	@Then("user enters employee info empname and id")
+	public void user_enters_employee_info_empname_and_id() throws InterruptedException {
+		driver.findElement(By.id("empsearch_id")).sendKeys(driver.findElement(By.xpath("//tr[1]//td[2]")).getText());Thread.sleep(5000);
+		System.out.println("id entered"+"    "+driver.findElement(By.xpath("//tr[1]//td[2]")).getText());
+		Thread.sleep(5000);
+	}
+
+	@Then("user clicks on search button")
+	public void user_clicks_on_search_button() throws InterruptedException {
+		driver.findElement(By.id("searchBtn")).click();
+		Thread.sleep(5000);
+	}
+
+	@Then("user selects the employee and clicks on delete button")
+	public void user_selects_the_employee_and_clicks_on_delete_button() throws InterruptedException {
+		List<WebElement> list = driver.findElements(By.xpath("//tr//td[2]"));
+		//Assert.assertTrue(list.size()>0);
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i).getText().contains(driver.findElement(By.xpath("//tr[1]//td[2]")).getText())) {
+				driver.findElement(By.name("chkSelectRow[]")).click();
+				driver.findElement(By.id("btnDelete")).click();
+				Thread.sleep(3000);
+				try {
+				Alert alt = driver.switchTo().alert();
+				}
+				catch(Exception e){
+					System.out.println("no alert present");
+				}
+				Thread.sleep(3000);
+				driver.findElement(By.id("dialogDeleteBtn")).click();
+				System.out.println("emp deleted");
+			}
+		}
+	}
 }

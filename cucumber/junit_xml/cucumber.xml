@@ -1,64 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="137.183">
-<testcase classname="add employee feature" name="verify user able to add new employee" time="60.921">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="66.674">
+<testcase classname="Orange HRM Application functionality test feature" name="delete an employee from the employee list" time="66.39">
 <system-out><![CDATA[Given browser open..........................................................passed
 When open url...............................................................passed
-Then user enters "admin" and "admin"........................................passed
+Then user enters username and password......................................passed
 Then user clicks on login button............................................passed
 Then user is logged in......................................................passed
 Then user clicks on PIM.....................................................passed
-Then user clicks on add employee............................................passed
-Then enter all details "ganesh" and "M".....................................passed
-Then user attach photograpth................................................passed
-Then user click on save button..............................................passed
-Then new employee registered successfully "ganesh"..........................passed
-Then user closes the browser................................................passed
+Then user clicks on employee list...........................................passed
+Then user enters employee info empname and id...............................passed
+Then user clicks on search button...........................................passed
+Then user selects the employee and clicks on delete button..................passed
 ]]></system-out>
-</testcase>
-<testcase classname="add employee feature" name="verify user able to add new employee 2" time="59.203">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given browser open..........................................................passed
-When open url...............................................................passed
-Then user enters "admin" and "admin"........................................passed
-Then user clicks on login button............................................passed
-Then user is logged in......................................................passed
-Then user clicks on PIM.....................................................passed
-Then user clicks on add employee............................................passed
-Then enter all details "mogili" and "g".....................................passed
-Then user attach photograpth................................................passed
-Then user click on save button..............................................passed
-Then new employee registered successfully "ganesh"..........................failed
-Then user closes the browser................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at stepDefinition.LoginStepDefinition.new_employee_registered_successfully(LoginStepDefinition.java:98)
-	at ✽.new employee registered successfully "ganesh"(file:///C:/Users/Madhavi%20K/git/mywork/cucumber/./src/main/java/Feature/addEmp.feature:13)
-]]></failure>
-</testcase>
-<testcase classname="add employee feature" name="verify user able to add new employee 3" time="16.766">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given browser open..........................................................passed
-When open url...............................................................passed
-Then user enters "ganesh" and "test@123"....................................passed
-Then user clicks on login button............................................passed
-Then user is logged in......................................................failed
-Then user clicks on PIM.....................................................skipped
-Then user clicks on add employee............................................skipped
-Then enter all details "new" and "employee".................................skipped
-Then user attach photograpth................................................skipped
-Then user click on save button..............................................skipped
-Then new employee registered successfully "new".............................skipped
-Then user closes the browser................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at stepDefinition.LoginStepDefinition.user_is_logged_in(LoginStepDefinition.java:62)
-	at ✽.user is logged in(file:///C:/Users/Madhavi%20K/git/mywork/cucumber/./src/main/java/Feature/addEmp.feature:7)
-]]></failure>
 </testcase>
 </testsuite>

@@ -1,37 +1,35 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-04-19T09:53:36.159Z",
-        "line": 17,
-        "name": "verify user able to add new employee",
+        "line": 3,
+        "name": "user shound be loggedin",
         "description": "",
-        "id": "add-employee-feature;verify-user-able-to-add-new-employee;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 10451000000,
+              "duration": 10817000000,
               "status": "passed"
             },
-            "line": 3,
+            "line": 4,
             "name": "browser open",
             "match": {
-              "location": "stepDefinition.LoginStepDefinition.browser_open()"
+              "location": "stepDefinition.StepDefinition.browser_open()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2628000000,
+              "duration": 2815000000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "open url",
             "match": {
-              "location": "stepDefinition.LoginStepDefinition.open_url()"
+              "location": "stepDefinition.StepDefinition.open_url()"
             },
             "keyword": "When "
           },
@@ -40,32 +38,22 @@
               "duration": 148000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "user enters \"admin\" and \"admin\"",
+            "line": 6,
+            "name": "user enters username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"admin\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"admin\"",
-                  "offset": 24
-                }
-              ],
-              "location": "stepDefinition.LoginStepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+              "location": "stepDefinition.StepDefinition.user_enters_username_and_password()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5574000000,
+              "duration": 5436000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user clicks on login button",
             "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_login_button()"
+              "location": "stepDefinition.StepDefinition.user_clicks_on_login_button()"
             },
             "keyword": "Then "
           },
@@ -74,475 +62,120 @@
               "duration": 6000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user is logged in",
             "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_is_logged_in()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 11607000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user clicks on PIM",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_PIM()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8925000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on add employee",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_add_employee()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6298000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "enter all details \"ganesh\" and \"M\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ganesh\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"M\"",
-                  "offset": 31
-                }
-              ],
-              "location": "stepDefinition.LoginStepDefinition.enter_all_details_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user attach photograpth",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_attach_photograpth()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8364000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user click on save button",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_click_on_save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6176000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "new employee registered successfully \"ganesh\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ganesh\"",
-                  "offset": 37
-                }
-              ],
-              "location": "stepDefinition.LoginStepDefinition.new_employee_registered_successfully(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 654000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user closes the browser",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_closes_the_browser()"
+              "location": "stepDefinition.StepDefinition.user_is_logged_in()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-04-19T09:54:37.100Z",
-        "line": 18,
-        "name": "verify user able to add new employee",
+        "start_timestamp": "2020-04-20T17:19:07.853Z",
+        "line": 27,
+        "name": "delete an employee from the employee list",
         "description": "",
-        "id": "add-employee-feature;verify-user-able-to-add-new-employee;;3",
+        "id": "orange-hrm-application-functionality-test-feature;delete-an-employee-from-the-employee-list",
+        "after": [
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.StepDefinition.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10045000000,
+              "duration": 11539000000,
               "status": "passed"
             },
-            "line": 3,
-            "name": "browser open",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.browser_open()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2599000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open url",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.open_url()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 141000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters \"admin\" and \"admin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"admin\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"admin\"",
-                  "offset": 24
-                }
-              ],
-              "location": "stepDefinition.LoginStepDefinition.user_enters_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5386000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is logged in",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_is_logged_in()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 11643000000,
-              "status": "passed"
-            },
-            "line": 8,
+            "line": 28,
             "name": "user clicks on PIM",
             "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_PIM()"
+              "location": "stepDefinition.StepDefinition.user_clicks_on_PIM()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 8683000000,
+              "duration": 5261000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "user clicks on add employee",
+            "line": 29,
+            "name": "user clicks on employee list",
             "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_add_employee()"
+              "location": "stepDefinition.StepDefinition.user_clicks_on_employee_list()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6268000000,
+              "duration": 10200000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "enter all details \"mogili\" and \"g\"",
+            "line": 30,
+            "name": "user enters employee info empname and id",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"mogili\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"g\"",
-                  "offset": 31
-                }
-              ],
-              "location": "stepDefinition.LoginStepDefinition.enter_all_details_and(java.lang.String,java.lang.String)"
+              "location": "stepDefinition.StepDefinition.user_enters_employee_info_empname_and_id()"
             },
             "keyword": "Then "
           },
           {
             "result": {
+              "duration": 7927000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "user attach photograpth",
+            "line": 31,
+            "name": "user clicks on search button",
             "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_attach_photograpth()"
+              "location": "stepDefinition.StepDefinition.user_clicks_on_search_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 8367000000,
+              "duration": 12086000000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "user click on save button",
+            "line": 32,
+            "name": "user selects the employee and clicks on delete button",
             "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_click_on_save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinition.LoginStepDefinition.new_employee_registered_successfully(LoginStepDefinition.java:98)\r\n\tat ✽.new employee registered successfully \"ganesh\"(file:///C:/Users/Madhavi%20K/git/mywork/cucumber/./src/main/java/Feature/addEmp.feature:13)\r\n",
-              "duration": 6052000000,
-              "status": "failed"
-            },
-            "line": 13,
-            "name": "new employee registered successfully \"ganesh\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ganesh\"",
-                  "offset": 37
-                }
-              ],
-              "location": "stepDefinition.LoginStepDefinition.new_employee_registered_successfully(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "user closes the browser",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_closes_the_browser()"
+              "location": "stepDefinition.StepDefinition.user_selects_the_employee_and_clicks_on_delete_button()"
             },
             "keyword": "Then "
           }
-        ]
-      },
-      {
-        "start_timestamp": "2020-04-19T09:55:36.311Z",
-        "line": 19,
-        "name": "verify user able to add new employee",
-        "description": "",
-        "id": "add-employee-feature;verify-user-able-to-add-new-employee;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 10217000000,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "browser open",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.browser_open()"
-            },
-            "keyword": "Given "
+            "name": "@FunctionalTest"
           },
           {
-            "result": {
-              "duration": 2943000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open url",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.open_url()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 196000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters \"ganesh\" and \"test@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ganesh\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"test@123\"",
-                  "offset": 25
-                }
-              ],
-              "location": "stepDefinition.LoginStepDefinition.user_enters_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2691000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinition.LoginStepDefinition.user_is_logged_in(LoginStepDefinition.java:62)\r\n\tat ✽.user is logged in(file:///C:/Users/Madhavi%20K/git/mywork/cucumber/./src/main/java/Feature/addEmp.feature:7)\r\n",
-              "duration": 704000000,
-              "status": "failed"
-            },
-            "line": 7,
-            "name": "user is logged in",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_is_logged_in()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "user clicks on PIM",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_PIM()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "user clicks on add employee",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_clicks_on_add_employee()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "enter all details \"new\" and \"employee\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"new\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"employee\"",
-                  "offset": 28
-                }
-              ],
-              "location": "stepDefinition.LoginStepDefinition.enter_all_details_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "user attach photograpth",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_attach_photograpth()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "user click on save button",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_click_on_save_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "new employee registered successfully \"new\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"new\"",
-                  "offset": 37
-                }
-              ],
-              "location": "stepDefinition.LoginStepDefinition.new_employee_registered_successfully(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "user closes the browser",
-            "match": {
-              "location": "stepDefinition.LoginStepDefinition.user_closes_the_browser()"
-            },
-            "keyword": "Then "
+            "name": "@deleteEmp_Scenario"
           }
         ]
       }
     ],
-    "name": "add employee feature",
+    "name": "Orange HRM Application functionality test feature",
     "description": "",
-    "id": "add-employee-feature",
+    "id": "orange-hrm-application-functionality-test-feature",
     "keyword": "Feature",
     "uri": "file:src/main/java/Feature/addEmp.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
