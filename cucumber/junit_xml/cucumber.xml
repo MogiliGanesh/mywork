@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="66.674">
-<testcase classname="Orange HRM Application functionality test feature" name="delete an employee from the employee list" time="66.39">
-<system-out><![CDATA[Given browser open..........................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="47.934">
+<testcase classname="Orange HRM Application functionality test feature" name="candidates search scenario" time="47.6">
+<failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=81.0.4044.113)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'&#10;System info: host: 'GANESH', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\MADHAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5b4649b9492a17a648e714df329235e9&#10;*** Element info: {Using=tag name, value=option}" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[Given browser open..........................................................passed
 When open url...............................................................passed
 Then user enters username and password......................................passed
 Then user clicks on login button............................................passed
 Then user is logged in......................................................passed
-Then user clicks on PIM.....................................................passed
-Then user clicks on employee list...........................................passed
-Then user enters employee info empname and id...............................passed
-Then user clicks on search button...........................................passed
-Then user selects the employee and clicks on delete button..................passed
-]]></system-out>
+Given user should be logged in..............................................passed
+Then user clicks on recruitment link text...................................passed
+Then user clicks on candidates link.........................................passed
+Then user selects recruitment info..........................................failed
+Then user clicks on candidate search button.................................skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'GANESH', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\MADHAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b4649b9492a17a648e714df329235e9
+*** Element info: {Using=tag name, value=option}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:281)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:312)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at org.openqa.selenium.support.ui.Select.getOptions(Select.java:72)
+	at org.openqa.selenium.support.ui.Select.getAllSelectedOptions(Select.java:80)
+	at stepDefinition.StepDefinition.user_selects_recruitment_info(StepDefinition.java:222)
+	at ✽.user selects recruitment info(file:///C:/Users/Madhavi%20K/git/mywork/cucumber/./src/main/java/Feature/featureFile.feature:39)
+]]></failure>
 </testcase>
 </testsuite>

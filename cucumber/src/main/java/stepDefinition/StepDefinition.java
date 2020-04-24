@@ -15,24 +15,28 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
+
 import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class StepDefinition {
-	@After
-	public void tearDown() {
-		driver.close();
-	}
+//	@After
+//	public void tearDown() {
+//		driver.close();
+//	}
 
 	WebDriver driver = null;
 	@Given("browser open")
 	public void browser_open() {
-		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/test/java/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
 
@@ -135,7 +139,7 @@ public class StepDefinition {
 	@Then("user selects the employee and clicks on delete button")
 	public void user_selects_the_employee_and_clicks_on_delete_button() throws InterruptedException {
 		List<WebElement> list = driver.findElements(By.xpath("//tr//td[2]"));
-		//Assert.assertTrue(list.size()>0);
+		if(list.size()>0) {
 		for (int i = 0; i < list.size(); i++) {
 			if (list.get(i).getText().contains(driver.findElement(By.xpath("//tr[1]//td[2]")).getText())) {
 				driver.findElement(By.name("chkSelectRow[]")).click();
@@ -152,5 +156,88 @@ public class StepDefinition {
 				System.out.println("emp deleted");
 			}
 		}
+		}
+		else System.out.println("no employee exist");
 	}
+	@Given("user should be logged in")
+	public void user_should_be_logged_in() {
+		String Exp = "http://127.0.0.1/orangehrm-3.0.1/symfony/web/index.php/pim/viewEmployeeList";
+		String act = driver.getCurrentUrl();
+		org.junit.Assert.assertTrue(act.equals(Exp));		
+	}
+
+	@Then("user clicks on Leave link text")
+	public void user_clicks_on_Leave_link_text() {
+driver.findElement(By.id("menu_leave_viewLeaveModule")).click();
+	}
+
+	@Then("user enters leave period info")
+	public void user_enters_leave_period_info() throws InterruptedException {
+		Thread.sleep(10000);
+		WebElement month=driver.findElement(By.id("leaveperiod_cmbStartMonth"));
+//List<WebElement> list=month.findElements(By.tagName("options"));
+
+Select sl=new Select(month);
+sl.selectByIndex(2);
+sl.getAllSelectedOptions();
+
+WebElement date=driver.findElement(By.id("leaveperiod_cmbStartDate"));
+//List<WebElement> list1=date.findElements(By.tagName("options"));
+
+Select sl1=new Select(date);
+sl1.selectByIndex(2);
+System.out.println(sl1.getAllSelectedOptions());
+		
+	}
+
+	@Then("user clicks on save button")
+	public void user_clicks_on_save_button() throws InterruptedException {
+		driver.findElement(By.id("btnEdit")).click();
+		Thread.sleep(5000);
+	}
+	
+	@Then("user clicks on recruitment link text")
+	public void user_clicks_on_recruitment_link_text() throws InterruptedException {
+		Thread.sleep(5000);
+		driver.findElement(By.id("menu_recruitment_viewRecruitmentModule")).click();
+		Thread.sleep(5000);
+	}
+
+	@Then("user clicks on candidates link")
+	public void user_clicks_on_candidates_link() {
+//		driver.findElement(By.id("menu_recruitment_viewCandidates")).click();	
+		}
+
+	@Then("user selects recruitment info")
+	public void user_selects_recruitment_info() throws InterruptedException {
+		Thread.sleep(5000);
+	WebElement status=	driver.findElement(By.name("candidateSearch[status]"));
+		Select ss=new Select(status);
+		ss.selectByIndex(2);
+		driver.findElement(By.id("candidateSearch_fromDate")).click();
+		
+		WebElement year=	driver.findElement(By.xpath("//select[@class='ui-datepicker-year']"));
+		Select sy=new Select(year);
+		sy.selectByIndex(98);
+		System.out.println(sy.getAllSelectedOptions());
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//table//tbody//tr[3]//td[4]")).click();
+		Thread.sleep(5000);
+		
+		
+	}
+
+	@Then("user clicks on candidate search button")
+	public void user_clicks_on_candidate_search_button() {
+		driver.findElement(By.id("btnSrch")).click();	
+		
+	}
+
+	
+	
+	
+	
+	
+	
+	
 }
