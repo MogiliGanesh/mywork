@@ -1,0 +1,66 @@
+********Collection Interface*****
+**********************************
+The Collection interface is the interface which is implemented by all the classes in the collection framework.
+It declares the methods that every collection will have. In other words, 
+we can say that the Collection interface builds the foundation on which the collection framework depends.
+
+Some of the methods of Collection interface are Boolean add ( Object obj), Boolean addAll ( Collection c), void clear(), etc. 
+which are implemented by all the subclasses of Collection interface.
+
+
+**********List Interface****************
+
+List interface is the child interface of Collection interface. 
+It inhibits a list type data structure in which we can store the ordered collection of objects. 
+It can have duplicate values.
+
+List interface is implemented by the classes ArrayList, LinkedList, Vector, and Stack.
+
+
+
+*********ArrayList**************
+
+
+The ArrayList class implements the List interface. It uses a dynamic array to store the duplicate element of different data types. 
+The ArrayList class maintains the insertion order and is non-synchronized. The elements stored in the ArrayList class can be randomly accessed.
+
+
+**************LinkedList
+LinkedList implements the Collection interface. It uses a doubly linked list internally to store the elements.
+ It can store the duplicate elements. It maintains the insertion order and is not synchronized. 
+ In LinkedList, the manipulation is fast because no shifting is required.
+ 
+ 
+ ********************Set Interface********************
+ ****************************************************
+ 
+Set Interface in Java is present in java.util package. It extends the Collection interface. 
+It represents the unordered set of elements which doesn't allow us to store the duplicate items.
+ We can store at most one null value in Set. Set is implemented by HashSet, LinkedHashSet, and TreeSet.
+ 
+ 
+ ******************HashSet****************************
+ *********************************************************
+ 
+HashSet class implements Set Interface. It represents the collection that uses a hash table for storage. 
+Hashing is used to store the elements in the HashSet. It contains unique items
+
+
+
+****************LinkedHashSet*************************
+
+
+LinkedHashSet class represents the LinkedList implementation of Set Interface.
+ It extends the HashSet class and implements Set interface. Like HashSet,
+  It also contains unique elements. It maintains the insertion order and permits null elements.
+  
+  
+  ***************************TreeSet*************************
+  
+  
+Java TreeSet class implements the Set interface that uses a tree for storage. Like HashSet, TreeSet also contains unique elements. 
+However, the access and retrieval time of TreeSet is quite fast. The elements in TreeSet stored in ascending order.
+
+
+
+****************************************************************************************************************************************************
