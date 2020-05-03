@@ -15,7 +15,7 @@ public class Multi_Thread extends Thread {
 		Multi_Thread mt2=new Multi_Thread();
 		Multi_Thread mt3=new Multi_Thread();
 		mt1.start();
-		mt1.join();   // waits till thread dies
+	//	mt1.join();   // waits till thread dies
 		System.out.println(mt1.getName());
 		mt3.start();
 		System.out.println(mt1.getName());
