@@ -10,6 +10,13 @@ public class Simple_String {
 		System.out.println(s1);  
 		System.out.println(s2);  
 		System.out.println(s3);
+		
+		System.out.println("*************");
+		
+		String s="ABC";
+		s.toLowerCase();
+		s +="def";
+		System.out.println(s);
 	}
 
 }
