@@ -51,7 +51,7 @@ public class Post_API extends TestBase {
 		// JackSon Api
 
 		ObjectMapper mapper=new ObjectMapper();
-		Users users=new Users("morphus", "leader");  // expectes users
+		Users users=new Users("morphus", "leader", "date", "id");  // expectes users
 		
 		
 		// object to json file conversion

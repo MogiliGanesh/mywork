@@ -29,9 +29,11 @@ public class Users {
 
 	}
 
-	public Users(String Name, String Job) {
+	public Users(String Name, String Job,String CreatedAt, String id) {
 		this.Name = Name;
 		this.Job = Job;
+		this.CreatedAt=CreatedAt;
+		this.id=id;
 	}
 
 	public String getName() {

@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3163" started-at="2020-05-08T06:54:33Z" finished-at="2020-05-08T06:54:36Z">
+  <suite name="Default suite" duration-ms="3120" started-at="2020-05-08T13:32:23Z" finished-at="2020-05-08T13:32:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3163" started-at="2020-05-08T06:54:33Z" finished-at="2020-05-08T06:54:36Z">
+    <test name="Default test" duration-ms="3120" started-at="2020-05-08T13:32:23Z" finished-at="2020-05-08T13:32:26Z">
       <class name="com.qa.test.Post_API">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.Post_API@3bbc39f8]" name="setUp" is-config="true" duration-ms="5" started-at="2020-05-08T06:54:33Z" finished-at="2020-05-08T06:54:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="postAPiTest()[pri:0, instance:com.qa.test.Post_API@3bbc39f8]" name="postAPiTest" duration-ms="3141" started-at="2020-05-08T06:54:33Z" finished-at="2020-05-08T06:54:36Z">
+        <test-method status="PASS" signature="postAPiTest()[pri:0, instance:com.qa.test.Post_API@3bbc39f8]" name="postAPiTest" duration-ms="3099" started-at="2020-05-08T13:32:23Z" finished-at="2020-05-08T13:32:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postAPiTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.Post_API@3bbc39f8]" name="setUp" is-config="true" duration-ms="0" started-at="2020-05-08T13:32:23Z" finished-at="2020-05-08T13:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
       </class> <!-- com.qa.test.Post_API -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
