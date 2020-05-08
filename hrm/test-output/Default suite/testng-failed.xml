@@ -5,6 +5,7 @@
     <classes>
       <class name="tests.OrangeHRM">
         <methods>
+          <include name="logIn"/>
           <include name="logOut"/>
           <include name="setUp"/>
           <include name="teatDown"/>
