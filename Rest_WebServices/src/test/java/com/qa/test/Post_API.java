@@ -77,7 +77,7 @@ public class Post_API extends TestBase {
 		//json string
 		String responceString=EntityUtils.toString(httpResponse.getEntity(), "UTF-8");
 		
-		
+		  
 		// string to json
 		 JSONObject jsonObject=new JSONObject(responceString);
 		 System.out.println("The response is "+ responceString);

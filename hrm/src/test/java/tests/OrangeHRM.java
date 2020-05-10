@@ -16,7 +16,7 @@ public class OrangeHRM extends TestBase {
 	}
 
 	@Test(priority = 1, description = "login functionality and validation")
-	public void logIn() throws InterruptedException, IOException {
+	public static void logIn() throws InterruptedException, IOException {
 
 		Assert.assertEquals(driver.getTitle(), Constants.expected_title, " error");
 		com.Pages.OrangeHRM o = PageFactory.initElements(driver, com.Pages.OrangeHRM.class);
@@ -43,6 +43,13 @@ public class OrangeHRM extends TestBase {
 		Assert.assertEquals(driver.getCurrentUrl(), Constants.url, "LogOut Failed");
 		log.info(" log out validated succesfully");
 	}
+	
+	
+		
+		
+		
+		
+	
 	
 	
 	@AfterMethod
