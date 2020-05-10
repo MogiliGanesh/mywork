@@ -16,8 +16,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
  class PracticeScripts extends TestBase {
-
-	@Test(enabled=false)
+// code for OrangeHRM_Leave_LeaveList
+	@Test(enabled=false, description=" code for OrangeHRM_Leave_LeaveList")
+	
 	public void Calendar() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", prop.getProperty("chrome_path"));
 		driver = new ChromeDriver();
@@ -75,7 +76,7 @@ import org.testng.annotations.Test;
 
 class Links extends TestBase{
 	String url;
-	@Test
+	@Test(description="code for OrangeHRM_LogIn_BrokenLinks")
 	public void BrokenLinks() throws MalformedURLException, IOException {
 	System.setProperty("webdriver.chrome.driver", prop.getProperty("chrome_path"));
 	driver = new ChromeDriver();
