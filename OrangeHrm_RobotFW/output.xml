@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200512 17:07:18.519" generator="Robot 3.2.1 (Python 2.7.18 on win32)">
+<suite source="C:\Users\Madhavi K\eclipse-workspace\OrangeHrm_RobotFW" id="s1" name="OrangeHrm RobotFW">
+<suite source="C:\Users\Madhavi K\eclipse-workspace\OrangeHrm_RobotFW\End_to_End Test.robot" id="s1-s1" name="End to End Test">
+<test id="s1-s1-t1" name="PIM Add Employee">
+<kw name="LogInKW">
+<doc>OrangeHRM LogIn functionality</doc>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Started</arg>
+</arguments>
+<msg timestamp="20200512 17:07:18.725" level="INFO">Test Started</msg>
+<status status="PASS" endtime="20200512 17:07:18.726" starttime="20200512 17:07:18.725"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>Chrome</arg>
+<arg>executable_path=E:\\chromedriver.exe</arg>
+</arguments>
+<msg timestamp="20200512 17:07:18.727" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" endtime="20200512 17:07:21.884" starttime="20200512 17:07:18.727"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Browser opened</arg>
+</arguments>
+<msg timestamp="20200512 17:07:21.886" level="INFO">Browser opened</msg>
+<status status="PASS" endtime="20200512 17:07:21.886" starttime="20200512 17:07:21.885"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20200512 17:07:21.888" level="INFO">Opening url 'http://127.0.0.1/orangehrm-3.0.1/symfony/web/index.php/auth/login'</msg>
+<status status="PASS" endtime="20200512 17:07:25.022" starttime="20200512 17:07:21.887"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Url Entered</arg>
+</arguments>
+<msg timestamp="20200512 17:07:25.025" level="INFO">Url Entered</msg>
+<status status="PASS" endtime="20200512 17:07:25.026" starttime="20200512 17:07:25.023"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" endtime="20200512 17:07:25.032" starttime="20200512 17:07:25.027"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20200512 17:07:27.158" starttime="20200512 17:07:25.034"></status>
+</kw>
+<kw name="Delete All Cookies" library="SeleniumLibrary">
+<doc>Deletes all cookies.</doc>
+<status status="PASS" endtime="20200512 17:07:27.165" starttime="20200512 17:07:27.158"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=txtUsername</arg>
+<arg>@{credentials}[0]</arg>
+</arguments>
+<msg timestamp="20200512 17:07:27.166" level="WARN">Accessing variable items using '@{credentials}[0]' syntax is deprecated. Use '${credentials}[0]' instead.</msg>
+<msg timestamp="20200512 17:07:27.167" level="INFO">Typing text 'admin' into text field 'name=txtUsername'.</msg>
+<status status="PASS" endtime="20200512 17:07:27.259" starttime="20200512 17:07:27.166"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>UserName Entered</arg>
+</arguments>
+<msg timestamp="20200512 17:07:27.259" level="INFO">UserName Entered</msg>
+<status status="PASS" endtime="20200512 17:07:27.260" starttime="20200512 17:07:27.259"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=txtPassword</arg>
+<arg>&amp;{LogIn data}[Password]</arg>
+</arguments>
+<msg timestamp="20200512 17:07:27.260" level="WARN">Accessing variable items using '&amp;{LogIn data}[Password]' syntax is deprecated. Use '${LogIn data}[Password]' instead.</msg>
+<msg timestamp="20200512 17:07:27.261" level="INFO">Typing text 'admin' into text field 'name=txtPassword'.</msg>
+<status status="PASS" endtime="20200512 17:07:27.344" starttime="20200512 17:07:27.260"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Password Entered</arg>
+</arguments>
+<msg timestamp="20200512 17:07:27.345" level="INFO">Password Entered</msg>
+<status status="PASS" endtime="20200512 17:07:27.345" starttime="20200512 17:07:27.344"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>name=Submit</arg>
+</arguments>
+<msg timestamp="20200512 17:07:27.345" level="INFO">Clicking button 'name=Submit'.</msg>
+<status status="PASS" endtime="20200512 17:07:32.670" starttime="20200512 17:07:27.345"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>LogInButton Clicked</arg>
+</arguments>
+<msg timestamp="20200512 17:07:32.671" level="INFO">LogInButton Clicked</msg>
+<status status="PASS" endtime="20200512 17:07:32.672" starttime="20200512 17:07:32.670"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200512 17:07:37.673" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200512 17:07:37.674" starttime="20200512 17:07:32.672"></status>
+</kw>
+<status status="PASS" endtime="20200512 17:07:37.676" starttime="20200512 17:07:18.724"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<arguments>
+<arg>id=menu_pim_viewPimModule</arg>
+</arguments>
+<msg timestamp="20200512 17:07:37.679" level="INFO">Simulating Mouse Over on element 'id=menu_pim_viewPimModule'.</msg>
+<status status="PASS" endtime="20200512 17:07:38.004" starttime="20200512 17:07:37.677"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>link=Add Employee</arg>
+</arguments>
+<msg timestamp="20200512 17:07:38.006" level="INFO">Clicking element 'link=Add Employee'.</msg>
+<status status="PASS" endtime="20200512 17:07:40.913" starttime="20200512 17:07:38.005"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=firstName</arg>
+<arg>&amp;{LogIn data}[FirstName]</arg>
+</arguments>
+<msg timestamp="20200512 17:07:40.916" level="WARN">Accessing variable items using '&amp;{LogIn data}[FirstName]' syntax is deprecated. Use '${LogIn data}[FirstName]' instead.</msg>
+<msg timestamp="20200512 17:07:40.916" level="INFO">Typing text 'Ganesh' into text field 'id=firstName'.</msg>
+<status status="PASS" endtime="20200512 17:07:41.066" starttime="20200512 17:07:40.913"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=lastName</arg>
+<arg>&amp;{LogIn data}[lastName]</arg>
+</arguments>
+<msg timestamp="20200512 17:07:41.067" level="WARN">Accessing variable items using '&amp;{LogIn data}[lastName]' syntax is deprecated. Use '${LogIn data}[lastName]' instead.</msg>
+<msg timestamp="20200512 17:07:41.068" level="INFO">Typing text 'M' into text field 'id=lastName'.</msg>
+<status status="PASS" endtime="20200512 17:07:41.227" starttime="20200512 17:07:41.066"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id=btnSave</arg>
+</arguments>
+<msg timestamp="20200512 17:07:41.229" level="INFO">Clicking button 'id=btnSave'.</msg>
+<status status="PASS" endtime="20200512 17:07:49.612" starttime="20200512 17:07:41.227"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200512 17:07:54.615" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200512 17:07:54.616" starttime="20200512 17:07:49.612"></status>
+</kw>
+<kw name="Get Element Attribute" library="SeleniumLibrary">
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<arguments>
+<arg>id=personal_txtEmployeeId</arg>
+<arg>value</arg>
+</arguments>
+<assign>
+<var>${Emp id}</var>
+</assign>
+<msg timestamp="20200512 17:07:54.674" level="INFO">${Emp id} = 0027</msg>
+<status status="PASS" endtime="20200512 17:07:54.674" starttime="20200512 17:07:54.618"></status>
+</kw>
+<kw name="Log Variables" library="BuiltIn">
+<doc>Logs all variables in the current scope with given log level.</doc>
+<arguments>
+<arg>empid=${Emp id}</arg>
+</arguments>
+<msg timestamp="20200512 17:07:54.677" level="FAIL">Invalid log level 'empid=0027'.</msg>
+<status status="FAIL" endtime="20200512 17:07:54.677" starttime="20200512 17:07:54.675"></status>
+</kw>
+<doc>OrangeHRM Add Employee functionality</doc>
+<tags>
+<tag>LogIn</tag>
+</tags>
+<status status="FAIL" endtime="20200512 17:07:54.678" critical="yes" starttime="20200512 17:07:18.724">Invalid log level 'empid=0027'.</status>
+</test>
+<status status="FAIL" endtime="20200512 17:07:54.679" starttime="20200512 17:07:18.574"></status>
+</suite>
+<status status="FAIL" endtime="20200512 17:07:54.683" starttime="20200512 17:07:18.553"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">LogIn</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="OrangeHrm RobotFW" pass="0">OrangeHrm RobotFW</stat>
+<stat fail="1" id="s1-s1" name="End to End Test" pass="0">OrangeHrm RobotFW.End to End Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200512 17:07:27.166" level="WARN">Accessing variable items using '@{credentials}[0]' syntax is deprecated. Use '${credentials}[0]' instead.</msg>
+<msg timestamp="20200512 17:07:27.260" level="WARN">Accessing variable items using '&amp;{LogIn data}[Password]' syntax is deprecated. Use '${LogIn data}[Password]' instead.</msg>
+<msg timestamp="20200512 17:07:40.916" level="WARN">Accessing variable items using '&amp;{LogIn data}[FirstName]' syntax is deprecated. Use '${LogIn data}[FirstName]' instead.</msg>
+<msg timestamp="20200512 17:07:41.067" level="WARN">Accessing variable items using '&amp;{LogIn data}[lastName]' syntax is deprecated. Use '${LogIn data}[lastName]' instead.</msg>
+</errors>
+</robot>

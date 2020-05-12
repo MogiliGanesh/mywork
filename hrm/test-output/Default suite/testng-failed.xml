@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Utils.PracticeScripts">
+      <class name="tests.OrangeHRM">
         <methods>
-          <include name="Calendar"/>
+          <include name="logOut"/>
+          <include name="setUp"/>
+          <include name="teatDown"/>
         </methods>
-      </class> <!-- com.Utils.PracticeScripts -->
+      </class> <!-- tests.OrangeHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
