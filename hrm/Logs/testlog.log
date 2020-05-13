@@ -718,3 +718,33 @@
 2020-05-11 23:51:24,867 - com.Utils.TestBase -INFO -  logIn validated succesfully
 2020-05-11 23:51:25,082 - com.Utils.TestBase -INFO - welcome admin link clicked
 2020-05-11 23:51:40,149 - com.Utils.TestBase -INFO - browser closed
+2020-05-13 10:35:32,482 - com.Utils.TestBase -INFO - broswer opened
+2020-05-13 10:35:34,725 - com.Utils.TestBase -INFO - broswer windows maximized
+2020-05-13 10:35:34,746 - com.Utils.TestBase -INFO - broswer cookies deleted
+2020-05-13 10:35:37,447 - com.Utils.TestBase -INFO - broswer url entered
+2020-05-13 10:35:38,954 - com.Utils.TestBase -INFO - username entered
+2020-05-13 10:35:41,143 - com.Utils.TestBase -INFO - password entered
+2020-05-13 10:35:46,617 - com.Utils.TestBase -INFO - logIn button clicked & validation starts
+2020-05-13 10:35:46,623 - com.Utils.TestBase -INFO -  logIn validated succesfully
+2020-05-13 10:35:46,906 - com.Utils.TestBase -INFO - browser closed
+2020-05-13 10:39:10,952 - com.Utils.TestBase -INFO - broswer opened
+2020-05-13 10:39:13,104 - com.Utils.TestBase -INFO - broswer windows maximized
+2020-05-13 10:39:13,123 - com.Utils.TestBase -INFO - broswer cookies deleted
+2020-05-13 10:39:15,836 - com.Utils.TestBase -INFO - broswer url entered
+2020-05-13 10:39:16,289 - com.Utils.TestBase -INFO - username entered
+2020-05-13 10:39:18,456 - com.Utils.TestBase -INFO - password entered
+2020-05-13 10:39:23,971 - com.Utils.TestBase -INFO - logIn button clicked & validation starts
+2020-05-13 10:39:23,983 - com.Utils.TestBase -INFO -  logIn validated succesfully
+2020-05-13 10:39:24,196 - com.Utils.TestBase -INFO - browser closed
+2020-05-13 10:39:27,304 - com.Utils.TestBase -INFO - broswer opened
+2020-05-13 10:39:29,437 - com.Utils.TestBase -INFO - broswer windows maximized
+2020-05-13 10:39:29,456 - com.Utils.TestBase -INFO - broswer cookies deleted
+2020-05-13 10:39:33,507 - com.Utils.TestBase -INFO - broswer url entered
+2020-05-13 10:39:33,915 - com.Utils.TestBase -INFO - username entered
+2020-05-13 10:39:36,095 - com.Utils.TestBase -INFO - password entered
+2020-05-13 10:39:41,919 - com.Utils.TestBase -INFO - logIn button clicked & validation starts
+2020-05-13 10:39:41,948 - com.Utils.TestBase -INFO -  logIn validated succesfully
+2020-05-13 10:39:42,154 - com.Utils.TestBase -INFO - welcome admin link clicked
+2020-05-13 10:39:48,990 - com.Utils.TestBase -INFO - clicked on logOut
+2020-05-13 10:39:48,999 - com.Utils.TestBase -INFO -  log out validated succesfully
+2020-05-13 10:39:49,079 - com.Utils.TestBase -INFO - browser closed

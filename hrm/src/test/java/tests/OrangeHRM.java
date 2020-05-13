@@ -1,5 +1,6 @@
 package tests;
 
+import com.Utils.MyScreenRecorder;
 import com.Utils.TestBase;
 import com.constants.Constants;
 import java.io.IOException;
@@ -16,8 +17,8 @@ public class OrangeHRM extends TestBase {
 	}
 
 	@Test(priority = 1, description = "login functionality and validation")
-	public static void logIn() throws InterruptedException, IOException {
-
+	public static void logIn() throws Exception {
+		MyScreenRecorder.startRecording("logIn");
 		Assert.assertEquals(driver.getTitle(), Constants.expected_title, " error");
 		com.Pages.OrangeHRM o = PageFactory.initElements(driver, com.Pages.OrangeHRM.class);
 		o.enter_UserName(Constants.userName);
@@ -28,11 +29,13 @@ public class OrangeHRM extends TestBase {
 		log.info("logIn button clicked & validation starts");
 		o.validation();
 		log.info(" logIn validated succesfully");
+		MyScreenRecorder.stopRecording();
 	
 	}
 
-	@Test(priority=2, description= "Logout functionalaity")
-	public void logOut() throws InterruptedException, IOException {
+	@Test(priority=2,enabled=true, description= "Logout functionalaity")
+	public void logOut() throws Exception {
+		MyScreenRecorder.startRecording("logOut");
 		logIn();
 		Assert.assertEquals(com.Pages.OrangeHRM.welcome.getText() , Constants.welcomeAdmin, "Error in lonIn Functionality");
 		com.Pages.OrangeHRM o1 = PageFactory.initElements(driver, com.Pages.OrangeHRM.class);
@@ -42,6 +45,7 @@ public class OrangeHRM extends TestBase {
 		log.info("clicked on logOut");
 		Assert.assertEquals(driver.getCurrentUrl(), Constants.url, "LogOut Failed");
 		log.info(" log out validated succesfully");
+		MyScreenRecorder.stopRecording();
 	}
 	
 	
