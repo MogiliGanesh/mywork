@@ -12,6 +12,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
@@ -76,7 +77,7 @@ import org.testng.annotations.Test;
 
 class Links extends TestBase{
 	String url;
-	@Test(description="code for OrangeHRM_LogIn_BrokenLinks")
+	@Test(enabled=false,description="code for OrangeHRM_LogIn_BrokenLinks")
 	public void BrokenLinks() throws MalformedURLException, IOException {
 	System.setProperty("webdriver.chrome.driver", prop.getProperty("chrome_path"));
 	driver = new ChromeDriver();
@@ -125,4 +126,22 @@ String url=totalLinks.get(i).getAttribute("href");
 	*/
 	
 	}	
+}
+
+
+
+class ElementColour extends TestBase{
+@Test(description="colour_of_an_element")
+public void ColourOfElement() {
+		initialization();
+		WebElement logInButton=driver.findElement(By.id("btnLogin"));
+		String colour=logInButton.getCssValue("color");
+		System.out.println(colour+"   Colour");
+		String colourBackground=logInButton.getCssValue("background-color");
+		String colourHex=Color.fromString(colour).asHex();
+		String backGroundHex=Color.fromString(colourBackground).asHex();
+		
+		System.out.println(colourHex+"   colour of text");
+		System.out.println(backGroundHex+"   backGroundHex of text");
+	}
 }

@@ -748,3 +748,15 @@
 2020-05-13 10:39:48,990 [main] INFO com.Utils.TestBase - clicked on logOut
 2020-05-13 10:39:48,999 [main] INFO com.Utils.TestBase -  log out validated succesfully
 2020-05-13 10:39:49,079 [main] INFO com.Utils.TestBase - browser closed
+2020-05-13 12:37:48,745 [main] INFO com.Utils.TestBase - broswer opened
+2020-05-13 12:37:52,701 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-05-13 12:37:53,122 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-05-13 12:37:55,981 [main] INFO com.Utils.TestBase - broswer url entered
+2020-05-13 12:42:40,956 [main] INFO com.Utils.TestBase - broswer opened
+2020-05-13 12:42:43,104 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-05-13 12:42:43,740 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-05-13 12:42:46,825 [main] INFO com.Utils.TestBase - broswer url entered
+2020-05-13 12:54:15,734 [main] INFO com.Utils.TestBase - broswer opened
+2020-05-13 12:54:17,884 [main] INFO com.Utils.TestBase - broswer windows maximized
+2020-05-13 12:54:18,229 [main] INFO com.Utils.TestBase - broswer cookies deleted
+2020-05-13 12:54:21,000 [main] INFO com.Utils.TestBase - broswer url entered
